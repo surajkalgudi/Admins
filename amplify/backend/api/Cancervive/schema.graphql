@@ -1,0 +1,20 @@
+type CreatePatients @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String!
+  Age: Int
+  MartialStatus: String
+  Children: Int
+  Gender: String
+  Hospital: String
+  PhoneNumber: Int
+  Address: String
+  CancerType: String
+  Stage: String
+  TreatmentPlan: String
+  Comorbidities: String
+  History: String
+  SocialHistory: String
+  FamilyHistory: String
+  Uhid: Int
+}
+ 
